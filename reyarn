@@ -1,0 +1,14 @@
+#!/bin/sh
+
+rm -rf node_modules yarn.lock
+yarn
+cd node_modules/react-native-tab-view
+patch -p1 < ../../patches/react-native-tab-view.patch
+cd ../..
+#cd node_modules/react-native-safe-area-view
+#patch -p1 < ../../patches/react-native-safe-area-view.patch
+#cd ../..
+#cd  node_modules/react-navigation
+#patch -p1 < ../../patches/MaskedViewIOS.patch
+#cd ../..
+
