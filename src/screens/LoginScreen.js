@@ -64,7 +64,7 @@ LoginScreen.defaultProps = {
 
 LoginScreen.propTypes = {
   screenProps: PropTypes.shape({
-    currentUser: PropTypes.string.isRequired,
+    currentUser: PropTypes.string,
     doLogin: PropTypes.func.isRequired,
     doLogout: PropTypes.func.isRequired,
     dimensions: PropTypes.shape({
