@@ -13,10 +13,7 @@ const Dimensions = (props) => {
       </View>
       <View style={styles.dimensionsContainer}>
         <Text style={styles.dimensionsText}>
-        { dimensions.screenFormFactor }
-        </Text>
-        <Text style={styles.dimensionsText}>
-          scale: { dimensions.scale.toFixed(2) }
+        { dimensions.screenFormFactor } scaled by { dimensions.scale.toFixed(2) }
         </Text>
       </View>
     </View>
