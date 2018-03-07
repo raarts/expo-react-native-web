@@ -66,7 +66,6 @@ class RootNavigator extends React.Component {
       if (width > IPHONE7_HEIGHT) {
         screenFormFactor = 'tabletsize';
         scale = width / IPAD_HEIGHT;
-        console.log('width:', width, 'ipad height:', IPAD_HEIGHT);
       }
       if (width > IPAD_HEIGHT) {
         screenFormFactor = 'monitorsize';
