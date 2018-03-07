@@ -114,14 +114,14 @@ class HomeScreen extends React.Component {
 }
 
 HomeScreen.defaultProps = {
-  screenProps: PropTypes.shape({
+  screenProps: {
     currentUser: null,
-  }),
+  },
 };
 
 HomeScreen.propTypes = {
   screenProps: PropTypes.shape({
-    currentUser: PropTypes.string.isRequired,
+    currentUser: PropTypes.string,
     doLogin: PropTypes.func.isRequired,
     doLogout: PropTypes.func.isRequired,
     dimensions: PropTypes.shape({
@@ -133,7 +133,7 @@ HomeScreen.propTypes = {
       orientation: PropTypes.string.isRequired,
       scale: PropTypes.number.isRequired,
     }),
-  }).isRequired,
+  }),
 };
 
 export default HomeScreen;

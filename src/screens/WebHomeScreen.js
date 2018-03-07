@@ -29,14 +29,14 @@ export default class WebHomeScreen extends React.Component {
 }
 
 WebHomeScreen.defaultProps = {
-  screenProps: PropTypes.shape({
+  screenProps: {
     currentUser: null,
-  }),
+  },
 };
 
 WebHomeScreen.propTypes = {
   screenProps: PropTypes.shape({
-    currentUser: PropTypes.string.isRequired,
+    currentUser: PropTypes.string,
     doLogin: PropTypes.func.isRequired,
     doLogout: PropTypes.func.isRequired,
     dimensions: PropTypes.shape({
@@ -48,7 +48,7 @@ WebHomeScreen.propTypes = {
       orientation: PropTypes.string.isRequired,
       scale: PropTypes.number.isRequired,
     }),
-  }).isRequired,
+  }),
 };
 
 const styles = StyleSheet.create({

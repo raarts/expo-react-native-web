@@ -10,10 +10,16 @@ import WebDocumentationScreen from '../../screens/WebDocumentationScreen';
 import LinksScreen from '../../screens/LinksScreen';
 import SettingsScreen from '../../screens/SettingsScreen';
 
+const defaultProps = {
+  screenProps: {
+    currentUser: null,
+  },
+};
+
 const propTypes = {
   screenProps: PropTypes.shape({
-    currentUser: PropTypes.string.isRequired,
-  }).isRequired,
+    currentUser: PropTypes.string,
+  }),
 };
 
 class HomeScreen extends React.Component {
@@ -30,6 +36,7 @@ class HomeScreen extends React.Component {
   }
 }
 
+HomeScreen.defaultProps = defaultProps;
 HomeScreen.propTypes = propTypes;
 
 class SecondScreen extends React.Component {
@@ -46,8 +53,8 @@ class SecondScreen extends React.Component {
   }
 }
 
+SecondScreen.defaultProps = defaultProps;
 SecondScreen.propTypes = propTypes;
-SecondScreen.defaultProps = {};
 
 class ThirdScreen extends React.Component {
   static navigationOptions = {
@@ -63,8 +70,8 @@ class ThirdScreen extends React.Component {
   }
 }
 
+ThirdScreen.defaultProps = defaultProps;
 ThirdScreen.propTypes = propTypes;
-ThirdScreen.defaultProps = {};
 
 const WebMainTabNavigator = TabNavigator(
   {
