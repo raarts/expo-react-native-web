@@ -53,7 +53,7 @@ class RootNavigator extends React.Component {
 
   setNewDimensions = (dim) => {
     let orientation;
-    let screenFormFactor = 'phone';
+    let screenFormFactor = 'phonesize';
     let scale;
 
     let { width, height } = dim.screen;
@@ -122,7 +122,7 @@ class RootNavigator extends React.Component {
 
     if (Platform.OS === 'ios' || Platform.OS === 'android') {
       switch (this.state.screenFormFactor) { // eslint-disable-line default-case
-        case 'phone':
+        case 'phonesize':
           Root = this.props.currentUser ? AppPhoneRootNavigator : AppPhoneLoginNavigator;
           break;
         case 'tabletsize':
@@ -132,7 +132,7 @@ class RootNavigator extends React.Component {
     }
     if (Platform.OS === 'web') {
       switch (this.state.screenFormFactor) { // eslint-disable-line default-case
-        case 'phone':
+        case 'phonesize':
           Root = MenuPhoneRootNavigator;
           break;
         case 'tabletsize':
