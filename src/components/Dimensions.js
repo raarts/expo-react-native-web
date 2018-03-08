@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text, View} from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import PropTypes from 'prop-types';
 
 const Dimensions = (props) => {
@@ -13,11 +13,11 @@ const Dimensions = (props) => {
       </View>
       <View style={styles.dimensionsContainer}>
         <Text style={styles.dimensionsText}>
-        { dimensions.screenFormFactor } scaled by { dimensions.scale.toFixed(2) }
+          { dimensions.screenFormFactor } scaled by { dimensions.scale.toFixed(2) }
         </Text>
       </View>
     </View>
-  )
+  );
 };
 
 Dimensions.propTypes = {
