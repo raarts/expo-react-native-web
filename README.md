@@ -4,7 +4,7 @@ This repo show how an Expo app (the default tabs template) can be extended with 
 
 ## How to use
 
-Clone this repo, and run `./reyarn`.
+Clone this repo, and run `yarn`.
 
 Then start `exp start -c` in one terminal, in another start `exp ios`.
 
