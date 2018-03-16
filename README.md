@@ -2,6 +2,8 @@
 
 This repo show how an Expo app (the default tabs template) can be extended with React Native Web support.
 
+[See my blog post here](https://medium.com/@ron.arts/web-support-for-create-react-native-app-80b16f930326).
+
 ## How to use
 
 Clone this repo, and run `yarn`.
