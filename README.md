@@ -1,5 +1,8 @@
 # expo-react-native-web
 
+**PLEASE NOTE: My expo-web repo has been [merged](https://github.com/expo/expo-sdk/pull/107) in official Expo, Yay! 
+I will soon update this repo to mach that**
+
 This repo show how an Expo app (the default tabs template) can be extended with React Native Web support.
 
 [See my blog post here](https://medium.com/@ron.arts/web-support-for-create-react-native-app-80b16f930326).
