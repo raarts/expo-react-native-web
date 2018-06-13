@@ -2,7 +2,12 @@
 
 **NOTE: My expo-web repo has been [merged](https://github.com/expo/expo-sdk/pull/107) in official Expo, Yay!**
 
-**I will soon update this repo to use that instead.**
+**NOTE2: Unfortunately the PR had to be retracted due to dependency concerns.**
+
+Also I'm now doubting if this is the correct way to move forward.
+It seems Vincent Riemers [React Native DOM](https://github.com/vincentriemer/react-native-dom) is the better way to go than react-native-web.
+
+**I will soon update this repo to use that instead. (update: not going to happen)**
 
 This repo shows how an Expo app (the default tabs template) can be extended with React Native Web support.
 
