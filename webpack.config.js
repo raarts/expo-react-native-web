@@ -15,12 +15,9 @@ const babelLoaderConfiguration = {
   include: [
     path.resolve(appDirectory, 'src'),
     path.resolve(appDirectory, 'node_modules/react-navigation'),
-    path.resolve(appDirectory, 'node_modules/react-native-tab-view'),
-    path.resolve(appDirectory, 'node_modules/react-native-vector-icons'),
-    path.resolve(appDirectory, 'node_modules/react-native-safe-area-view'),
+    path.resolve(appDirectory, 'node_modules/react-native-'),
     path.resolve(appDirectory, 'node_modules/@expo/samples'),
     path.resolve(appDirectory, 'node_modules/@expo/vector-icons'),
-    path.resolve(appDirectory, 'node_modules/react-native-platform-touchable'),
   ],
   use: {
     loader: 'babel-loader',
@@ -74,6 +71,15 @@ const ttfLoaderConfiguration = {
   include: [
     path.resolve(appDirectory, './src/assets/fonts'),
     path.resolve(appDirectory, 'node_modules/react-native-vector-icons'),
+    path.resolve(appDirectory, 'node_modules/@expo/vector-icons/fonts'),
+    path.resolve(
+      appDirectory,
+      'node_modules/expo-web/node_modules/react-native-vector-icons/Fonts',
+    ),
+    path.resolve(
+      appDirectory,
+      'node_modules/expo/node_modules/@expo/vector-icons/fonts',
+    ),
   ],
 };
 

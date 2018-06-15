@@ -7,7 +7,6 @@ import {
   View,
 } from 'react-native';
 import Dimensions from '../components/Dimensions';
-import HomeScreen from "./AppHomeScreen";
 
 export default class WebHomeScreen extends React.Component {
   render() {

@@ -1,7 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import {
-  Image,
   ScrollView,
   StyleSheet,
   Text,
@@ -24,14 +22,6 @@ export default class WebDocumentationScreen extends React.Component {
   }
 }
 
-WebDocumentationScreen.defaultProps = {
-  t: x => x,
-};
-
-WebDocumentationScreen.propTypes = {
-  t: PropTypes.func,
-};
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -39,18 +29,6 @@ const styles = StyleSheet.create({
   },
   contentContainer: {
     paddingTop: 30,
-  },
-  welcomeContainer: {
-    alignItems: 'center',
-    marginTop: 10,
-    marginBottom: 20,
-  },
-  welcomeImage: {
-    width: 100,
-    height: 80,
-    resizeMode: 'contain',
-    marginTop: 3,
-    marginLeft: -10,
   },
   getStartedContainer: {
     alignItems: 'center',
