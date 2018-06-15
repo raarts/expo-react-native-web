@@ -4838,7 +4838,7 @@ ini@^1.3.4, ini@~1.3.0:
   version "1.3.5"
   resolved "https://registry.npmjs.org/ini/-/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
 
-inline-style-prefixer@^4.0.0:
+inline-style-prefixer@^4.0.2:
   version "4.0.2"
   resolved "https://registry.npmjs.org/inline-style-prefixer/-/inline-style-prefixer-4.0.2.tgz#d390957d26f281255fe101da863158ac6eb60911"
   dependencies:
@@ -8109,9 +8109,9 @@ react-native-vector-icons@^4.5.0:
     prop-types "^15.5.10"
     yargs "^8.0.2"
 
-react-native-web@^0.6.0:
-  version "0.6.1"
-  resolved "https://registry.npmjs.org/react-native-web/-/react-native-web-0.6.1.tgz#54d809bdce9eca13277666a13acb9cdb971d1f11"
+react-native-web@^0.7.0:
+  version "0.7.3"
+  resolved "https://registry.npmjs.org/react-native-web/-/react-native-web-0.7.3.tgz#a970b8a618d14d4e4a9e42c8e9a591e5d7cf1bae"
   dependencies:
     array-find-index "^1.0.2"
     create-react-class "^15.6.2"
@@ -8119,7 +8119,7 @@ react-native-web@^0.6.0:
     deep-assign "^2.0.0"
     fbjs "^0.8.16"
     hyphenate-style-name "^1.0.2"
-    inline-style-prefixer "^4.0.0"
+    inline-style-prefixer "^4.0.2"
     normalize-css-color "^1.0.2"
     prop-types "^15.6.0"
     react-timer-mixin "^0.13.3"
