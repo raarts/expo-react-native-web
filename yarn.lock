@@ -7948,7 +7948,7 @@ rc@^1.0.1, rc@^1.1.6, rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-art@^16.2.0:
+react-art@^16.4.1:
   version "16.4.1"
   resolved "https://registry.npmjs.org/react-art/-/react-art-16.4.1.tgz#3544c13038d7ddfe8b1cc1170b02d99492c03b50"
   dependencies:
@@ -8109,9 +8109,9 @@ react-native-vector-icons@^4.5.0:
     prop-types "^15.5.10"
     yargs "^8.0.2"
 
-react-native-web@^0.5.0:
-  version "0.5.4"
-  resolved "https://registry.npmjs.org/react-native-web/-/react-native-web-0.5.4.tgz#a1146548e95df241f3eba9666745ea8948404e78"
+react-native-web@^0.6.0:
+  version "0.6.1"
+  resolved "https://registry.npmjs.org/react-native-web/-/react-native-web-0.6.1.tgz#54d809bdce9eca13277666a13acb9cdb971d1f11"
   dependencies:
     array-find-index "^1.0.2"
     create-react-class "^15.6.2"
@@ -8122,7 +8122,6 @@ react-native-web@^0.5.0:
     inline-style-prefixer "^4.0.0"
     normalize-css-color "^1.0.2"
     prop-types "^15.6.0"
-    react-art "^16.2.0"
     react-timer-mixin "^0.13.3"
 
 "react-native@https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz":
