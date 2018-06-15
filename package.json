@@ -38,7 +38,7 @@
     "react-dom": "16.0.0",
     "react-native": "https://github.com/expo/react-native/archive/sdk-28.0.0.tar.gz",
     "react-native-dotenv": "^0.1.1",
-    "react-native-web": "^0.6.0",
+    "react-native-web": "^0.7.0",
     "react-navigation": "^1.1.0-rc.4",
     "react-scripts": "1.0.17",
     "webpack": "^3.11.0"
