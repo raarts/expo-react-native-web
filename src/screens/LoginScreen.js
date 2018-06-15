@@ -8,7 +8,6 @@ import {
   View,
 } from 'react-native';
 import PropTypes from 'prop-types';
-import WebHomeScreen from "./WebHomeScreen";
 
 export default class LoginScreen extends React.Component {
   static navigationOptions = {
@@ -44,23 +43,6 @@ export default class LoginScreen extends React.Component {
     );
   }
 }
-
-LoginScreen.defaultProps = {
-  screenProps: {
-    currentUser: 'yes',
-    doLogin: () => {},
-    doLogout: () => {},
-    dimensions: {
-      size: {
-        width: 0,
-        height: 0,
-      },
-      screenFormFactor: 'phone',
-      orientation: 'landscape',
-      scale: 1.0,
-    },
-  },
-};
 
 LoginScreen.propTypes = {
   screenProps: PropTypes.shape({
