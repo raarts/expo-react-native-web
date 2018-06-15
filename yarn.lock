@@ -8109,9 +8109,9 @@ react-native-vector-icons@^4.5.0:
     prop-types "^15.5.10"
     yargs "^8.0.2"
 
-react-native-web@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.npmjs.org/react-native-web/-/react-native-web-0.4.0.tgz#5c334fb6eba1623886e162d73174b3cc37826e63"
+react-native-web@^0.5.0:
+  version "0.5.4"
+  resolved "https://registry.npmjs.org/react-native-web/-/react-native-web-0.5.4.tgz#a1146548e95df241f3eba9666745ea8948404e78"
   dependencies:
     array-find-index "^1.0.2"
     create-react-class "^15.6.2"
