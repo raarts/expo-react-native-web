@@ -126,6 +126,7 @@ module.exports = {
       '@expo/vector-icons': 'expo-web',
       expo: 'expo-web',
       'react-native': 'react-native-web',
+      'react-native-svg': 'react-native-svg-web',
     },
   },
 };
