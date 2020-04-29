@@ -11,6 +11,8 @@ It seems Vincent Riemers [React Native DOM](https://github.com/vincentriemer/rea
 
 This repo shows how an Expo app (the default tabs template) can be extended with React Native Web support.
 
+**NOTE3: Expo now has support for web. It's still in beta, but coming along nicely. They chose react-native-web.
+
 [See my blog post here](https://medium.com/@ron.arts/web-support-for-create-react-native-app-80b16f930326).
 
 ## How to use
