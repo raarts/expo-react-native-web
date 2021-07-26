@@ -1,5 +1,7 @@
 # expo-react-native-web
 
+**SECURITY NOTE: This repo is unmaintained, only kept alive for posterity.
+
 **NOTE: My expo-web repo has been [merged](https://github.com/expo/expo-sdk/pull/107) in official Expo, Yay!**
 
 **NOTE2: Unfortunately the PR had to be retracted due to dependency concerns.**
